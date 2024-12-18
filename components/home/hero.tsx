@@ -108,8 +108,8 @@ const HeroSection = React.memo(() => {
         <Button
           classes="ml-3"
           type={ButtonTypes.PRIMARY}
-          name="Contact Me"
-          href={`mailto:${EMAIL}`}
+          name="Send Email"
+          href={`mailto:${EMAIL}?subject=Hello Oliver, let's work together!&body=Hi Oliver,%0D%0A%0D%0AI'd like to discuss a potential opportunity with you.%0D%0A%0D%0ABest regards,`}
           otherProps={{
             target: "_blank",
             rel: "noreferrer",
