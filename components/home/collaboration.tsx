@@ -98,7 +98,7 @@ const CollaborationSection = () => {
         willChange ? "will-change-opacity" : ""
       }`}
     >
-      Let's work on <span className="text-strong font-bold">Amazing Projects</span>
+      Let&rsquo;s work on <span className="text-strong font-bold">Amazing Projects</span>
       ?
     </h1>
   );

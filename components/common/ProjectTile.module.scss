@@ -23,12 +23,12 @@
 .ProjectImg {
   @apply absolute top-0 rounded-xl shadow-xl;
 
-  width: 16.8rem !important;
-  transform: rotate(-22.5deg);
-  height: unset !important;
+  width: 20rem !important;
+  transform: rotate(-22.5deg) translateY(2rem);
+  height: 12rem !important;
   min-width: unset !important;
   max-height: unset !important;
-  object-fit: contain !important;
+  object-fit: cover !important;
   left: unset !important;
   right: 2rem !important;
   bottom: unset !important;
@@ -36,4 +36,7 @@
 
 .techIcons {
   transform: rotate(-22.5deg) translateZ(2rem);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
